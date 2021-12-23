@@ -1,0 +1,65 @@
+.footer__page {
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  box-shadow: -5px 0 5px 3px rgba(0, 0, 0, 0.671);
+  margin: 2rem 0 0 0;
+  border-radius: 3rem 3rem 0 0;
+}
+.company__name {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: #e50914;
+  margin-bottom: 1rem;
+}
+.icon__follow {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+.icon__follow i {
+  font-size: 1.2rem;
+  color: black;
+  transition: 0.3s;
+}
+.icon__social {
+  height: 2.3rem;
+  width: 2.3rem;
+  cursor: pointer;
+  background: white;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.icon__social:hover {
+  background: none;
+}
+.icon__social:hover i {
+  color: #e50914;
+}
+.footer__page p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+.footer__page p span {
+  color: #e50914;
+  cursor: pointer;
+}
+.footer__page p span:hover {
+  color: #e50914;
+  text-decoration: underline;
+}
+.copy__right {
+  color: grey;
+  padding: 0.5rem 0;
+}
+.icon__follow a {
+  text-decoration: none;
+}
